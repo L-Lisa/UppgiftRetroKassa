@@ -35,7 +35,6 @@ export const Kassa = () => {
                         <li >{item}Kr</li>
                     ))}
                 </ul>
-
             </Form>
             {Total && <TotalBox>Total: {Total}Kr </TotalBox>}
         </KassaBox>
